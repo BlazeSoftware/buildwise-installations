@@ -29,7 +29,9 @@ const Layout = ({ children, title, description }) => {
       <SEO title={title} description={description} />
       <header className="c-header">
         <div className="o-logo--large u-display-none@medium">
-          <Img style={{ width: `180px` }} fluid={data.logoLarge.childImageSharp.fluid} />
+          <Link activeClassName="active" to={`/`}>
+            <Img style={{ width: `180px` }} fluid={data.logoLarge.childImageSharp.fluid} />
+          </Link>
         </div>
         <nav className="c-header__nav">
           <Link activeClassName="active" to={`/`}>
