@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 
-const ProjectList = () => {
+const LatestProject = () => {
   const data = useStaticQuery(graphql`
-    query ProjectList {
+    query LatestProject {
       site {
         siteMetadata {
           title
@@ -12,6 +12,7 @@ const ProjectList = () => {
       allMarkdownRemark(
         filter: { fields: { slug: { regex: "^/projects/" } } }
         sort: { fields: [frontmatter___date], order: DESC }
+        limit: 1
       ) {
         edges {
           node {
@@ -34,7 +35,7 @@ const ProjectList = () => {
 
   return (
     <section>
-      <h2 className="c-heading c-heading--secondary">Previous Projects</h2>
+      <h2 className="c-heading c-heading--secondary">Latest Project</h2>
       <div>
         {projects.map(({ node: { fields, frontmatter, excerpt } }, i) => (
           <Link key={fields.slug} className="c-project-link" to={fields.slug}>
@@ -51,4 +52,4 @@ const ProjectList = () => {
   );
 };
 
-export default ProjectList;
+export default LatestProject;
