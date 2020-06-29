@@ -40,6 +40,7 @@ module.exports = {
                 paragraph: 'c-paragraph',
                 link: 'c-link',
                 blockquote: 'u-blockquote u-text--italic u-large',
+                image: 'o-image u-high',
               },
             },
           },
