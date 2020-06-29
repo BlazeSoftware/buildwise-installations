@@ -1,0 +1,62 @@
+backend:
+  name: github
+  repo: BlazeSoftware/buildwise-installations
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Image", name: "featuredImage", widget: image}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "services"
+    label: "Services"
+    folder: "content/services"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+  
+  - name: "pages"
+    label: "Pages"
+    files:
+    - file: "content/site/home.md"
+      label: "Home Page"
+      name: "home"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Description, name: description, widget: string}
+        - {label: "Body", name: "body", widget: "markdown"}
+
+    - file: "content/site/work.md"
+      label: "Projects Page"
+      name: "projects"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Description, name: description, widget: string}
+        - {label: "Body", name: "body", widget: "markdown"}
+
+    - file: "content/site/about.md"
+      label: "About Page"
+      name: "about"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Description, name: description, widget: string}
+        - {label: "Body", name: "body", widget: "markdown"}
+
+    - file: "content/site/contact.md"
+      label: "Contact Page"
+      name: "contact"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Description, name: description, widget: string}
+        - {label: "Body", name: "body", widget: "markdown"}
