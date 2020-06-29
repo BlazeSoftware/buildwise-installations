@@ -34,7 +34,7 @@ collections:
       fields:
         - {label: Title, name: title, widget: string}
         - {label: Description, name: description, widget: string, required: false}
-        - {label: "Body", name: "body", widget: "markdown"}
+        - {label: "Body", name: "body", widget: "markdown", required: false}
 
     - file: "content/site/work.md"
       label: "Projects Page"
@@ -42,7 +42,7 @@ collections:
       fields:
         - {label: Title, name: title, widget: string}
         - {label: Description, name: description, widget: string, required: false}
-        - {label: "Body", name: "body", widget: "markdown"}
+        - {label: "Body", name: "body", widget: "markdown", required: false}
 
     - file: "content/site/about.md"
       label: "About Page"
@@ -50,7 +50,7 @@ collections:
       fields:
         - {label: Title, name: title, widget: string}
         - {label: Description, name: description, widget: string, required: false}
-        - {label: "Body", name: "body", widget: "markdown"}
+        - {label: "Body", name: "body", widget: "markdown", required: false}
 
     - file: "content/site/contact.md"
       label: "Contact Page"
@@ -58,4 +58,4 @@ collections:
       fields:
         - {label: Title, name: title, widget: string}
         - {label: Description, name: description, widget: string, required: false}
-        - {label: "Body", name: "body", widget: "markdown"}
+        - {label: "Body", name: "body", widget: "markdown", required: false}
