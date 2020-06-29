@@ -1,6 +1,4 @@
 ---
 title: Who We Are
-description: This is where you can put the text about who you are...
+description: ""
 ---
-
-Options about info goes here...
