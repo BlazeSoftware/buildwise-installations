@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: BlazeSoftware/buildwise-installations
+  name: git-gateway
 
 media_folder: static/img
 public_folder: /img
