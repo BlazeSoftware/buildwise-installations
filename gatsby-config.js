@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Buildwise Installations Ltd.`,
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at eros id libero pellentesque euismod. Nam ut felis non mauris mattis lacinia eget vitae odio.`,
-    siteUrl: `https://www.buildwise-installations.co.uk/`,
+    siteUrl: `https://buildwise-installations.co.uk/`,
   },
   plugins: [
     `gatsby-plugin-netlify`,
