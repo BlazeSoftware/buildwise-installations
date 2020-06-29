@@ -5,6 +5,8 @@ module.exports = {
     siteUrl: `https://www.buildwise-installations.co.uk/`,
   },
   plugins: [
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-netlify-cache`,
     `gatsby-plugin-netlify-cms`,
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
