@@ -13,7 +13,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Featured Image", name: "featuredImage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -23,7 +23,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Description", name: "description", widget: "text", required: false}
   
   - name: "pages"
     label: "Pages"
@@ -33,7 +33,7 @@ collections:
       name: "home"
       fields:
         - {label: Title, name: title, widget: string}
-        - {label: Description, name: description, widget: string}
+        - {label: Description, name: description, widget: string, required: false}
         - {label: "Body", name: "body", widget: "markdown"}
 
     - file: "content/site/work.md"
@@ -41,7 +41,7 @@ collections:
       name: "projects"
       fields:
         - {label: Title, name: title, widget: string}
-        - {label: Description, name: description, widget: string}
+        - {label: Description, name: description, widget: string, required: false}
         - {label: "Body", name: "body", widget: "markdown"}
 
     - file: "content/site/about.md"
@@ -49,7 +49,7 @@ collections:
       name: "about"
       fields:
         - {label: Title, name: title, widget: string}
-        - {label: Description, name: description, widget: string}
+        - {label: Description, name: description, widget: string, required: false}
         - {label: "Body", name: "body", widget: "markdown"}
 
     - file: "content/site/contact.md"
@@ -57,5 +57,5 @@ collections:
       name: "contact"
       fields:
         - {label: Title, name: title, widget: string}
-        - {label: Description, name: description, widget: string}
+        - {label: Description, name: description, widget: string, required: false}
         - {label: "Body", name: "body", widget: "markdown"}
