@@ -1,5 +1,4 @@
 ---
-title: Repair
-description: We can repair all sorts of stuff for you!
+title: Point of Sale Manufacture & Install
+description: Further information here...
 ---
-
