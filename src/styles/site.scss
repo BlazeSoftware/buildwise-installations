@@ -12,6 +12,11 @@
   --color-link: var(--color-brand);
 }
 
+::selection {
+  color: white;
+  background: var(--color-brand);
+}
+
 html,
 body,
 body > div,
