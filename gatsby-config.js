@@ -6,10 +6,25 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
+      // keep as first gatsby-source-filesystem plugin for gatsby image support
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/img`,
+        name: 'uploads',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content`,
-        name: `content`,
+        name: 'content',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/img`,
+        name: 'images',
       },
     },
     {
@@ -25,6 +40,12 @@ module.exports = {
                 link: 'c-link',
                 blockquote: 'u-blockquote u-text--italic u-large',
               },
+            },
+          },
+          {
+            resolve: 'gatsby-remark-relative-images',
+            options: {
+              name: 'uploads',
             },
           },
           {
@@ -56,7 +77,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#19a89e`,
         display: `minimal-ui`,
-        icon: `content/assets/logo.png`,
+        icon: `src/img/logo.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

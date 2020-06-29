@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link, graphql, useStaticQuery } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
+import ProjectLink from './project-link';
 
 const LatestProject = () => {
   const data = useStaticQuery(graphql`
@@ -24,6 +25,13 @@ const LatestProject = () => {
               date(formatString: "MMMM DD, YYYY")
               title
               description
+              featuredImage {
+                childImageSharp {
+                  fluid(maxWidth: 800) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
             }
           }
         }
@@ -31,23 +39,26 @@ const LatestProject = () => {
     }
   `);
 
-  const projects = data.allMarkdownRemark.edges;
+  const project = data.allMarkdownRemark.edges[0];
+
+  const renderProject = () => {
+    const {
+      node: { fields, frontmatter, excerpt },
+    } = project;
+    const props = {
+      slug: fields.slug,
+      title: frontmatter.title,
+      featuredImage: frontmatter.featuredImage,
+      description: frontmatter.description || excerpt,
+    };
+
+    return <ProjectLink {...props} />;
+  };
 
   return (
     <section>
       <h2 className="c-heading c-heading--secondary">Latest Project</h2>
-      <div>
-        {projects.map(({ node: { fields, frontmatter, excerpt } }, i) => (
-          <Link key={fields.slug} className="c-project-link" to={fields.slug}>
-            <div className="c-project-link__title">
-              <h3 className="c-heading">{frontmatter.title}</h3>
-            </div>
-            <div className="c-project-link__description">
-              <span>{frontmatter.description || excerpt}</span>
-            </div>
-          </Link>
-        ))}
-      </div>
+      <div>{renderProject()}</div>
     </section>
   );
 };

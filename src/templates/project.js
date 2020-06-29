@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 import Layout from '../components/layout';
 
@@ -8,11 +9,10 @@ const ProjectTemplate = ({ data, pageContext, location }) => {
   const { previous, next } = pageContext;
 
   return (
-    <Layout location={location} title="Our Work" description={post.frontmatter.description || post.excerpt}>
+    <Layout location={location} title={post.frontmatter.title} description={post.frontmatter.description || post.excerpt}>
       <article>
         <header>
-          <h2>{post.frontmatter.title}</h2>
-          <p>{post.frontmatter.date}</p>
+          <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} alt={post.frontmatter.title} />
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
       </article>
@@ -21,7 +21,8 @@ const ProjectTemplate = ({ data, pageContext, location }) => {
         <div className="u-left">
           {previous && (
             <Link className="c-button c-button--ghost c-button--brand" to={previous.fields.slug} rel="prev">
-              <i className="fas fa-chevron-left u-small"></i>{` `}
+              <i className="fas fa-chevron-left u-small"></i>
+              {` `}
               {previous.frontmatter.title}
             </Link>
           )}
@@ -29,7 +30,8 @@ const ProjectTemplate = ({ data, pageContext, location }) => {
         <div className="u-right">
           {next && (
             <Link className="c-button c-button--ghost c-button--brand" to={next.fields.slug} rel="next">
-              {next.frontmatter.title}{` `}
+              {next.frontmatter.title}
+              {` `}
               <i className="fas fa-chevron-right u-small"></i>
             </Link>
           )}
@@ -56,6 +58,13 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

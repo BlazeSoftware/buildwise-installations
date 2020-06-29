@@ -7,14 +7,14 @@ import SEO from './seo';
 const Layout = ({ children, title, description }) => {
   const data = useStaticQuery(graphql`
     query LayoutQuery {
-      logo: file(relativePath: { eq: "assets/logo.png" }) {
+      logo: file(relativePath: { eq: "logo.png" }) {
         childImageSharp {
           fluid(maxWidth: 85, maxHeight: 85) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      logoLarge: file(relativePath: { eq: "assets/logo-large.png" }) {
+      logoLarge: file(relativePath: { eq: "logo-large.png" }) {
         childImageSharp {
           fluid(maxWidth: 180) {
             ...GatsbyImageSharpFluid
