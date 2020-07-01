@@ -1,9 +1,18 @@
 ---
-title: New Beginnings
-date: 2015-05-28T22:40:32.169Z
-description: This is an example description
+title: Demo Test 123
+date: 2020-07-01T20:55:48.863Z
+description: This is a demo of the CMS
 featuredImage: /img/example three.jpg
 ---
+* **Hi there! *This is now italic.*** [Leeds United](https://www.leedsunited.com/). 
+
+1. This is a list item
+2. This is another item
+
+# Oh hi there.
+
+![dogs](/img/this-is-fine.jpg "dogs around fire")
+
 Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
 right at the coast of the Semantics, a large language ocean. A small river named
