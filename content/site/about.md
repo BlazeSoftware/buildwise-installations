@@ -1,11 +1,13 @@
 ---
 title: Who We Are
-description: Lorem ipsum dolor sit amet, consectetur adi
+description: A modern, innovative installations team defined by a core set of traditional values.
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula, velit ac malesuada semper, ex magna venenatis neque, in commodo justo ex sed augue. Aenean vehicula finibus justo, ac consectetur mi luctus vitae. Suspendisse vel vulputate sem. Donec varius pellentesque ligula nec sodales. Maecenas vulputate faucibus sapien, sed tincidunt magna feugiat non. Phasellus imperdiet sollicitudin purus, sit amet rhoncus justo sagittis eu. Vivamus ut odio mauris. Suspendisse tincidunt vulputate eros id pretium. Curabitur iaculis lectus vel lacus venenatis, ac sollicitudin enim pharetra. Sed pharetra turpis sapien, eget commodo lectus suscipit ac. Integer vehicula leo ut ipsum vehicula commodo. Vivamus a quam eu quam laoreet placerat in in felis. Duis in dolor nisl. Sed ac tellus velit.
+Buildwise is an installations and manufacture company that specialise in delivering unique projects. We have a broad spectrum of clients across many sectors. We have years of experience working alongside many different companies and have worked with them in many different countries across Europe. We have a can-do attitude and deliver a quality finish on all our work. We aspire to always do more for our clients and go that extra mile in every job we undertake.
 
-Mauris tristique erat sit amet felis tincidunt, at eleifend mi commodo. Etiam convallis in lacus ut suscipit. Morbi tincidunt vel nulla quis viverra. Vivamus tempus malesuada metus ac feugiat. Mauris a libero non neque eleifend congue. Donec nisl arcu, tristique nec consectetur et, aliquet nec justo. Praesent a rhoncus est. Nulla non ante eget augue fermentum rutrum. Pellentesque sed magna id dui hendrerit lacinia.
+## Testimonial 
 
-Aliquam erat volutpat. Vivamus pharetra faucibus augue, quis rhoncus urna cursus consectetur. Quisque vestibulum sem vel vehicula laoreet. Proin euismod sapien non cursus elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur metus nisi, posuere quis semper nec, porta vel felis. Aenean augue turpis, tincidunt id tortor ut, mollis tincidunt justo.
+> “Can I thank the Buildwise team for all their hard work and effort on the project, they have been great from start to finish.”
 
-Curabitur gravida vehicula vulputate. Etiam maximus pellentesque quam, quis dictum libero feugiat in. Mauris varius diam a porttitor pharetra. Curabitur nisl ligula, lacinia et finibus nec, pellentesque id turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin euismod, odio et auctor tempor, sapien est consequat arcu, quis suscipit neque metus quis nisl. Proin odio libero, convallis sed auctor a, suscipit non odio. Quisque erat nulla, pellentesque nec tellus sit amet, malesuada dignissim tellus. Proin quis vulputate diam.
+Managing director, Simon Wilson 
+
+Brands Creative 

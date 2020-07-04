@@ -1,6 +1,4 @@
 ---
 title: Our Work
-description: This is a selection of what we've done
+description: Read about projects we have completed and the happy customers who hired us to help them.
 ---
-
-Optional content goes here...

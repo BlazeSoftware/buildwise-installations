@@ -5,17 +5,24 @@ description: We'd love to hear from you. Drop us a line.
 ## Opening times
 
 Mon-Fri: 8am - 8pm
+Saturdays: 8am – 4pm 
 
-We're closed Sunday and Bank Holidays.
+We're closed Sundays and bank holidays.
 
 ## Telephone
 
-[078121 147539](<tel:078121 147539>)
+Office: [0113 2641453](<tel:0113 2641453>)
+
+Mobile: [078121 147539](<tel:078121 147539>)
 
 ## Email
 
-[hello@buildwise-installations.co.uk](mailto:hello@buildwise-installations.co.uk)
+[info@buildwise-installations.co.uk ](mailto:info@buildwise-installations.co.uk)
 
 ## Twitter
 
 [@BuildwiseI](https://twitter.com/BuildwiseI)
+
+## LinkedIn
+
+[Buildwise Installations on LinkedIn](https://www.linkedin.com/in/buildwise-installations-1b13021b0/)
