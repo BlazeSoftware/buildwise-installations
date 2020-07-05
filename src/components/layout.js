@@ -56,7 +56,7 @@ const Layout = ({ children, title, description }) => {
       </header>
       <main className="u-letter-box-super">{children}</main>
       <footer className="o-footer">
-        <div>
+        <div className="o-footer__contact-info">
           <div>
             <i className="c-icon fas fa-envelope"></i>
             <a className="c-link" href="mailto:hello@buildwise-installations.co.uk">
@@ -67,6 +67,18 @@ const Layout = ({ children, title, description }) => {
             <i className="c-icon fas fa-phone"></i>
             <a className="c-link" href="tel:078121 147539">
               078121 147539
+            </a>
+          </div>
+          <div>
+            <i className="c-icon fab fa-linkedin"></i>
+            <a className="c-link" href="https://www.linkedin.com/in/buildwise-installations-1b13021b0/" target="_blank" rel="noreferrer">
+              Find us on LinkedIn
+            </a>
+          </div>
+          <div>
+            <i className="c-icon fab fa-twitter"></i>
+            <a className="c-link" href="https://twitter.com/BuildwiseI" target="_blank" rel="noreferrer">
+              @BuildwiseI
             </a>
           </div>
         </div>

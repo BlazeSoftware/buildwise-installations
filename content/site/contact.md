@@ -23,6 +23,6 @@ Mobile: [078121 147539](<tel:078121 147539>)
 
 [@BuildwiseI](https://twitter.com/BuildwiseI)
 
-## LinkedIn
+## LinkedIn
 
 [Buildwise Installations on LinkedIn](https://www.linkedin.com/in/buildwise-installations-1b13021b0/)
