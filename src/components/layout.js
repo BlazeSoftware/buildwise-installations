@@ -59,14 +59,14 @@ const Layout = ({ children, title, description }) => {
         <div className="o-footer__contact-info">
           <div>
             <i className="c-icon fas fa-envelope"></i>
-            <a className="c-link" href="mailto:hello@buildwise-installations.co.uk">
-              hello@buildwise-installations.co.uk
+            <a className="c-link" href="mailto:info@buildwise-installations.co.uk">
+              info@buildwise-installations.co.uk
             </a>
           </div>
           <div>
             <i className="c-icon fas fa-phone"></i>
-            <a className="c-link" href="tel:078121 147539">
-              078121 147539
+            <a className="c-link" href="tel:0113 2641453">
+              0113 2641453
             </a>
           </div>
           <div>
