@@ -1,6 +1,6 @@
 ---
-title: Speak Stage at Mayfair London
-date: 2020-01-03T00:00:00.000Z
+title: Key Speaker Stage at Mayfair London
+date: 2018-09-27T23:00:00.000Z
 description: We created this key speaker staging and conference area in a
   private suite for our client in a matter of hours!
 featuredImage: /img/mayfair-1.png
