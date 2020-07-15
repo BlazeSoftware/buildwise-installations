@@ -9,10 +9,15 @@ const ProjectTemplate = ({ data, pageContext, location }) => {
   const { previous, next } = pageContext;
 
   return (
-    <Layout location={location} title={post.frontmatter.title} description={post.frontmatter.description || post.excerpt}>
+    <Layout
+      location={location}
+      title={post.frontmatter.title}
+      description={post.frontmatter.description || post.excerpt}>
       <article>
         <header>
-          <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} alt={post.frontmatter.title} />
+          {post.frontmatter.featuredImage && post.frontmatter.featuredImage.childImageSharp && (
+            <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} alt={post.frontmatter.title} />
+          )}
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
       </article>
