@@ -1,6 +1,6 @@
 ---
 title: Bespoke Whiskey Cabinet
-date: '2020-01-01T00:00:00.000Z'
+date: 2018-01-15T00:00:00.000Z
 description: This was crafted for a private collector of fine whiskey.
 featuredImage: /img/bespoke-whiskey-cabinet.png
 ---
