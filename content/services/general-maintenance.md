@@ -1,4 +1,4 @@
 ---
-title: General Maintenance
-description: "All aspects of joinery services available. "
+title: "Shop Fitting "
+description: "All aspects of shop fitting services available. "
 ---
