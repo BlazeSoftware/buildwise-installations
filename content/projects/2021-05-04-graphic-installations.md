@@ -1,6 +1,6 @@
 ---
 title: "Graphic Installations "
-date: 2020-05-04T13:07:00.000Z
+date: 2020-01-15T14:07:00.000Z
 description: Large format foamx graphic display.
 featuredImage: /img/b-q-graphic.jpg
 ---
