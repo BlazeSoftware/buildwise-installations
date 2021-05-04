@@ -1,6 +1,6 @@
 ---
 title: Audio Visual Installation
-date: 2020-11-10T15:04:53.806Z
+date: 2019-11-10T15:04:00.000Z
 description: "Fitting digital Menu screens "
 featuredImage: /img/morrisons-av-.jpg
 ---
