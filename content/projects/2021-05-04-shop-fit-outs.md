@@ -1,6 +1,6 @@
 ---
 title: "Shop Fit-outs "
-date: 2018-05-17T13:33:00.000Z
+date: 2021-03-03T14:33:00.000Z
 description: Large Showroom installation
 featuredImage: /img/pole-star-units.jpg
 ---
